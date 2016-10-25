@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="">
+        
+    </header><!-- /header -->
+
+    <main>
+        <center>
+            <div id="test1">
+                Test1 Text: {{ text1 }}
+            </div>
+            <div id="test2">
+                <h3>v-bind</h3>
+                <p v-bind:title="text2">Hover mouse to see dynamic title</p>
+                {{ text2 }}
+            </div>
+            <div id="test3">
+                <h3>v-if</h3>
+                <p v-if="seen">Now you see me</p>
+            </div>
+        </center>
+    </main><!-- /main -->
+
+    <footer>
+        
+    </footer><!-- /footer -->
+</body>
+
+
+<script src="scripts/vue.js" type="text/javascript" charset="utf-8"></script>
+<script src="scripts/app.js" type="text/javascript" charset="utf-8"></script>
+</html>
